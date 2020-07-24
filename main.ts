@@ -2,7 +2,7 @@ namespace sprites {
     /**
      * Sets a number in the data of a sprite
      */
-    //% blockId=spriteDataSetNumber(mySprite) block="set $sprite=variables_get data $name to number $value"
+    //% blockId=spriteDataSetNumber block="set $sprite=variables_get(mySprite) data $name to number $value"
     //% group="Data"
     //% weight=10
     //% blockGap=8
