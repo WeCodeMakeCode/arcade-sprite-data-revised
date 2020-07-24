@@ -124,7 +124,7 @@ namespace sprites {
     //% group="Data"
     //% weight=9
     //% blockGap=8
-    export function setDataImage(sprite: Sprite, name: string, value: Image) {
+    export function setDataImage(sprite: Sprite, name: string, value: Image = null){
         if (!sprite || !name) return;
         const d = sprite.data;
         d[name] = value;
