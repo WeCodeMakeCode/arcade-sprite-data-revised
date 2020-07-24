@@ -28,7 +28,7 @@ namespace sprites {
     /**
      * Gets a number in the data of a sprite
      */
-    //% blockId=spriteDataGetNumber block="$sprite=variables_get data(mySprite) $name as number"
+    //% blockId=spriteDataGetNumber block="$sprite=variables_get(mySprite) data $name as number"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -41,7 +41,7 @@ namespace sprites {
     /**
      * Sets a string in the data of a sprite
      */
-    //% blockId=spriteDataSetString block="set $sprite=variables_get data(mySprite) $name to string $value"
+    //% blockId=spriteDataSetString block="set $sprite=variables_get(mySprite) data $name to string $value"
     //% group="Data"
     //% weight=10
     //% blockGap=8
