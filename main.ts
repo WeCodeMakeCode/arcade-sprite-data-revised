@@ -15,7 +15,7 @@ namespace sprites {
     /**
      * Change a number in the data of a sprite by a given value
      */
-    //% blockId=spriteDataChangeNumber block="change $sprite=variables_get data $name by number $value"
+    //% blockId=spriteDataChangeNumber block="change $sprite=variables_get(mySprite) data $name by number $value"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -28,7 +28,7 @@ namespace sprites {
     /**
      * Gets a number in the data of a sprite
      */
-    //% blockId=spriteDataGetNumber block="$sprite=variables_get data $name as number"
+    //% blockId=spriteDataGetNumber block="$sprite=variables_get data(mySprite) $name as number"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -41,7 +41,7 @@ namespace sprites {
     /**
      * Sets a string in the data of a sprite
      */
-    //% blockId=spriteDataSetString block="set $sprite=variables_get data $name to string $value"
+    //% blockId=spriteDataSetString block="set $sprite=variables_get data(mySprite) $name to string $value"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -54,7 +54,7 @@ namespace sprites {
     /**
      * Gets a number in the data of a sprite
      */
-    //% blockId=spriteDataGetString block="$sprite=variables_get data $name as string"
+    //% blockId=spriteDataGetString block="$sprite=variables_get(mySprite) data $name as string"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -67,7 +67,7 @@ namespace sprites {
     /**
      * Sets a boolean in the data of a sprite
      */
-    //% blockId=spriteDataSetBoolean block="set $sprite=variables_get data $name to boolean $value"
+    //% blockId=spriteDataSetBoolean block="set $sprite=variables_get(mySprite) data $name to boolean $value"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -80,7 +80,7 @@ namespace sprites {
     /**
      * Gets a boolean in the data of a sprite
      */
-    //% blockId=spriteDataGetBoolean block="$sprite=variables_get data $name as boolean"
+    //% blockId=spriteDataGetBoolean block="$sprite=variables_get(mySprite) data $name as boolean"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -93,7 +93,7 @@ namespace sprites {
     /**
      * Sets a sprite in the data of a sprite
      */
-    //% blockId=spriteDataSetSprite block="set $sprite=variables_get data $name to sprite $value"
+    //% blockId=spriteDataSetSprite block="set $sprite=variables_get(mySprite) data $name to sprite $value=variables_get(mySprite2)"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -106,7 +106,7 @@ namespace sprites {
     /**
      * Gets a sprite in the data of a sprite
      */
-    //% blockId=spriteDataGetSprite block="$sprite=variables_get data $name as sprite"
+    //% blockId=spriteDataGetSprite block="$sprite=variables_get(mySprite) data $name as sprite"
     //% group="Data"
     //% weight=10
     //% blockGap=8
@@ -118,9 +118,9 @@ namespace sprites {
 
 
     /**
-     * Sets a sprite in the data of a sprite
+     * Sets an image in the data of a sprite
      */
-    //% blockId=spriteDataSetImage block="set $sprite=variables_get data $name to image $value"
+    //% blockId=spriteDataSetImage block="set $sprite=variables_get(mySprite) data $name to image $value"
     //% group="Data"
     //% weight=9
     //% blockGap=8
@@ -131,9 +131,9 @@ namespace sprites {
     }
 
     /**
-     * Gets a sprite in the data of a sprite
+     * Gets an image in the data of a sprite
      */
-    //% blockId=spriteDataGetImage block="$sprite=variables_get data $name as image"
+    //% blockId=spriteDataGetImage block="$sprite=variables_get(mySprite) data $name as image"
     //% group="Data"
     //% weight=9
     //% blockGap=8
