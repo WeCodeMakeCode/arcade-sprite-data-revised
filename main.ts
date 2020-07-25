@@ -120,11 +120,11 @@ namespace sprites {
     /**
      * Sets an image in the data of a sprite
      */
-    //% blockId=spriteDataSetImage block="set $sprite=variables_get(mySprite) data $name to image $value"
+    //% blockId=spriteDataSetImage block="set $sprite=variables_get(mySprite) data $name to image $value=screen_image_picker"
     //% group="Data"
     //% weight=9
     //% blockGap=8
-    //% value.shadow.image(image.create(16,16))
+    //% value.shadow.image(image.create(16,16))'
     export function setDataImage(sprite: Sprite, name: string, value: Image){
         if (!sprite || !name) return;
         const d = sprite.data;
