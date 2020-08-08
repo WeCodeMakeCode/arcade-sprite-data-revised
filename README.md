@@ -2,9 +2,9 @@
 # arcade-sprite-data-revised
  This MakeCode Arcade extension is the same as Arcade Sprite Data Extnesion 
  on Arcade's dashboard except:
-     *  the blocks use "mySprite" instead oh "item," 
-     *  has an image specification that allows any kind of image, 
-     *  and a couple of corrections in the comments
+- the blocks use "mySprite" instead oh "item," 
+- has an image specification that allows any kind of image, 
+- and a couple of corrections in the comments
 
 
 ## Use as Extension
@@ -24,12 +24,6 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/wecodemakecode/sprite-data-revised** and click import
 
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/wecodemakecode/sprite-data-revised/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
