@@ -6,6 +6,9 @@
 - there is an image specification that allows any kind of image, 
 - and a couple of comments are changed.
 
+## Blocks
+![](/sprite-data-blocks.gif)
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
