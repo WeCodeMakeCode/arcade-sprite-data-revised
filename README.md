@@ -7,7 +7,7 @@
 - and a couple of comments are changed.
 
 ## Blocks
-![](/sprite-data-blocks.gif)
+![](sprite-data-blocks.gif)
 
 ## Use as Extension
 
