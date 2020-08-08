@@ -3,9 +3,8 @@
  This MakeCode Arcade extension is the same as Arcade Sprite Data Extnesion 
  on Arcade's dashboard except:
 - the blocks use "mySprite" instead oh "item," 
-- has an image specification that allows any kind of image, 
-- and a couple of corrections in the comments
-
+- there is an image specification that allows any kind of image, 
+- and a couple of comments are changed.
 
 ## Use as Extension
 
