@@ -1,11 +1,10 @@
  
-# sprite-data-revised
-
-
- * The changes to Sprite Data Extnesion are:
- *      "mySprite" instead oh "item," 
- *      an image specification that allows any kind of image, 
- *      and a couple of corrections in the comments
+# arcade-sprite-data-revised
+ This MakeCode Arcade extension is the same as Arcade Sprite Data Extnesion 
+ on Arcade's dashboard except:
+     *  the blocks use "mySprite" instead oh "item," 
+     *  has an image specification that allows any kind of image, 
+     *  and a couple of corrections in the comments
 
 
 ## Use as Extension
