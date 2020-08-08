@@ -1,7 +1,12 @@
  
+# sprite-data-revised
 
 
-> Open this page at [https://wecodemakecode.github.io/sprite-data-revised/](https://wecodemakecode.github.io/sprite-data-revised/)
+ * The changes to Sprite Data Extnesion are:
+ *      "mySprite" instead oh "item," 
+ *      an image specification that allows any kind of image, 
+ *      and a couple of corrections in the comments
+
 
 ## Use as Extension
 
