@@ -1,3 +1,9 @@
+/**
+ * This MakeCode Arcade extension is the same as Sprite Data Extnesion on Arcade's dashboard except:
+ *      the blocks use "mySprite" instead oh "item," 
+ *      has an image specification that allows any kind of image, 
+ *      and a couple of corrections in the comments
+*/
 namespace sprites {
     /**
      * Sets a number in the data of a sprite
